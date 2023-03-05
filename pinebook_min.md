@@ -16,7 +16,7 @@ As soon as I got hold of my PineBook, probably the first thing to try was gettin
 
 In order to switch distros, I needed to start up from the SD card, and I had a hard time to find why I couldn't. After several trial and error attempts, I found out that Armbian would start up from SD, and I used that to install Manjaro minimal to the eMMC module. Why Manjaro? Well, I've been using Manjaro for years, and simply find it one of the best distros out there. Besides this, the PineBook kernel is made by Manjaro, so I feel I will get better integration to the hardware components out of the box.
 
-I've finally reached the sweet spot of my desired workflow: a tiling window manager as a framework to write on vim, with git version management, mkdocs as static site generator, and thunderbird with all mailboxes on a network server. I've found some trouble on every single step of this journey, but that's okay as long as you can find the solution, and this is why I decided to share it. All this trouble finally will make sense if just anyone in the same situation can take advantage of my research.
+I've finally reached the sweet spot of my desired workflow: a tiling window manager as a framework to write on vim, with git version management, mkdocs as static site generator, and Thunderbird with all mailboxes on a network server. I've found some trouble on every single step of this journey, but that's okay as long as you can find the solution, and this is why I decided to share it. All this trouble finally will make sense if just anyone in the same situation can take advantage of my research.
 
 So let's get in detail. For each problem found I wrote down step-by-step notes, with the idea of replicating if ever needed.
  
