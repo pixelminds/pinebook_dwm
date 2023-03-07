@@ -4,7 +4,8 @@
 #define TERMINAL "st"
 #define BROWSER "firefox"
 #define EMAIL "thunderbird"
-#define MARKDOWN "ghostwriter"
+#define MARKDOWN "vim"
+#define FILEM "vifm"
 
 /* appearance */
 static const unsigned int borderpx  = 8;        /* border pixel of windows */
@@ -33,7 +34,6 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      	instance    title       tags mask     isfloating   monitor */
-	{ "Gimp",     	NULL,       NULL,       0,		1,           -1 },
 	{ BROWSER,	NULL,       NULL,       1<<1,		0,           -1 },
 	{ EMAIL,  	NULL,       NULL,       1<<2,		0,           -1 },
 /*	{ MARKDOWN,  	NULL,       NULL,       1<<3,		0,           -1 },*/
@@ -76,7 +76,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_w,      spawn,          {.v = web } },
 	{ MODKEY,                       XK_e,      spawn,          {.v = mail } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY,                       XK_a,      spawn,          {.v = (const char*[]){ TERMINAL, "-e", "mc", NULL }}},
+	{ MODKEY,                       XK_a,      spawn,          {.v = (const char*[]){ TERMINAL, "-e", FILEM, NULL }}},
 /*	{ MODKEY,                       XK_g,      spawn,          {.v = (const char*[]){ TERMINAL, "-e", MARKDOWN, NULL }}},*/
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
