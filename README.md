@@ -20,12 +20,30 @@ I've finally reached the sweet spot of my desired workflow: a tiling window mana
 
 So let's get in detail. For each problem found I wrote down step-by-step notes, with the idea of replicating if ever needed.
  
-## Wireless configuration: connecting to the world
+## Step by step guide
 
+### Wireless configuration: connecting to the world
+
+Some system installers include a step for  wireless configuration, but when this is not the case, you'll need to configure it. Most distros rely on Network Manager, which can be configured using nmtui. Manjaro uses iNet Wireless Daemon (iwd). You can find a brief guide in the [https://forum.manjaro.org/t/guide-install-manjaro-arm-minimal-headless-on-rpi4-with-wifi/96515][Manjaro forum]. I'm copying all the commands needed in this guide. Do not type the $ and # symbols, they just show when you need to use sudo or su privileges (lines starting with #), and when not (lines with $).
+
++ We'll first try to figure out which is the ROOT partition, probably mmcblk2p2.
 ```
-$ lsblk -f \\ identify ROOT partition, probably mmcblk2p2
+$ lsblk -f
+```
++ Then we'll manually build the iwd config file. Replace `wifi-name` with the UUID of your wifi network, and `pwd` with the corresponding passphrase.
+```
 # mkdir -p /mnt
-# mount -o rw /dev/mmcblk2p2
+# mount -o rw /dev/mmcblk2p2 /mnt
+# mkdir -p /mnt/var/lib/iwd
+# touch /mnt/var/lib/iwd/wifi-name.psk
+# echo "[Security]" | sudo tee -a /mnt/var/lib/iwd/wifi-name.psk
+# echo "Passphrase=pwd" | sudo tee -a /mnt/var/lib/iwd/wifi-name.psk
+# umount /mnt
+# reboot
+```
++ After reboot you should have connection to Internet. One way to check if you're connectied is to try upgrading Linux.
+```
+# pacman -Syu
 ```
 
 ## Which software: less is more
