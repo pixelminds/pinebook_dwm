@@ -4,7 +4,8 @@ Once installed and configured, this workflow can be tweaked to the smallest deta
 
 I decided to share all the configuration process, basically for myself to replicate, but also, why not, to let others save some time. If you're interested in any way, just keep reading the following chapters in any order.
 
-+ (The process and the choices)[01_process.md]
++ [The process and the choices](https://github.com/pixelminds/pinebook_manjaro_dwm/blob/main/01_process.md)
++ [The process and the choices](01_process.md)
 + Basic configuration, a step by step guide
 + The writing tools
 + Going online
