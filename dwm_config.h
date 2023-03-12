@@ -5,7 +5,7 @@
 #define BROWSER "firefox"
 #define EMAIL "thunderbird"
 #define MARKDOWN "vim"
-#define FILEM "vifm"
+#define FILEM "ranger"
 
 /* appearance */
 static const unsigned int borderpx  = 8;        /* border pixel of windows */
