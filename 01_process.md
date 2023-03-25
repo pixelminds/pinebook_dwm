@@ -1,5 +1,6 @@
 # A keyboard-centric workflow with PineBook Pro
 
+This is the first part of [a bigger story](README.md) about building a keyboard-centric workflow for writers to edit and publish their work. 
 This adventure started with a very simple idea: the need of a silent, fanless, minimalist laptop. Living with others comes with this kind of requirements. Otherwise I would probably be writing this on a bulky workstation with a clicky, noisy mechanical keyboard.
 
 ## Which laptop: unexpectedly cheap
