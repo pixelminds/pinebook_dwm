@@ -51,6 +51,13 @@ $ make
 # make clean install
 
 ```
+Once in the task of compiling dwm, the same exact process can be done with the other suckless applications, like dmenu, st, and slstatus. A lot can be said about the suckless philosophy. Basically what they offer is just what many Linux users expect in a Linux-based workflow - each application has a purpose, and it doesn't try to do anything else. 
+
 ### File management
 
+File management is a core function in any operating system. Linux comes bundled with all the functions you need to create, move, copy, and navigate directories and files. But most of us expect a little more than a text listing to move things around. There's different approaches to this: the graphical window approach of conventional desktop environments, the dual pane linsting, or the multiple level navigation. When you've chosen the terminal as your working place, then ranger is one of the most vim-like file managers. There's a faster fork called lf, written in go, but the user experience with ranger is closer to my preference. Installing ranger has no secret, you can use your regular package manager. Configuring is done in several config files, one for the bindings, one for the helper apps.
+
 ### Extra software: less is more
+
+Besides the file manager, there's usually a few other apps that you'll need to make your stuff. In my case I just want to write stuff, keep track of versions, and probably set it up for publishing. I also want to make sure there's a backup of imporrtant files, and of course I'd like to make sure I don't have to stat all this over, so system backup or snapshots are needed too.
+
