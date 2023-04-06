@@ -51,7 +51,7 @@ $ make
 # make clean install
 
 ```
-Once in the task of compiling dwm, the same exact process can be done with the other suckless applications, like dmenu, st, and slstatus. A lot can be said about the suckless philosophy. Basically what they offer is just what many Linux users expect in a Linux-based workflow - each application has a purpose, and it doesn't try to do anything else. 
+Once in the task of compiling dwm, the same exact process can be done with the other suckless applications, like dmenu, st, and slstatus. A lot can be said about the suckless philosophy. Basically what they offer is just what many Linux users expect in a Linux-based workflow - each application has a purpose, performs efficiently, and it doesn't try to do anything else. 
 
 ### File management
 
