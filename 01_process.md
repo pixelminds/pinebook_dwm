@@ -9,7 +9,14 @@ The first thing to figure out was where to put the money, and how much. Several 
 
 ## Which distro: trying the wild side
 
-This last version of the PineBook Pro comes bundled with Manjaro KDE (ARM version). The original idea of getting a laptop for writing away from my desk was to get rid of the mouse. Trackpads in general are bad for serious work, and make you less productive. A keyboard-centric workflow became one of my research topics. Before I decided to order the laptop, I got interested in tiling window managers. I listened to videos by the coolest nerds out there, and read comparisons about keyboard workflows, minimalist setups, and all this bunch of dotfile collectors. Well, I've become one of those.
+This last version of the PineBook Pro comes bundled with Manjaro KDE (ARM
+version). The original idea of getting a laptop for writing away from my desk
+was to get rid of the mouse. Trackpads in general are bad for serious work, and
+make you less productive. A keyboard-centric workflow became one of my research
+topics. Before I decided to order the laptop, I got interested in tiling window
+managers. I listened to videos by the coolest nerds out there, and read
+comparisons about keyboard workflows, minimalist setups, and all this bunch of
+dotfile collectors. Well, I've become one of those.
 
 Once I had the laptop ordered, and while it was shipped, I made some tweaking on my old noisy i386 laptop to test the tools. I had AntiX installed, which included HerbstluftWM. I had the feeling it would be as hard as I expected. In fact, I'm really writing this three months later than that, as soon as I have set up the whole workflow. I kept testing the keybindings and the logic behind the window manager. I also tried to install i3, which was so easy to configure, but I sort of felt the radical minimalism was still somewhere else. I tried to install dwm from the package manager, but it needed some ricing, which needed you to build from source. This meant installing a bunch of developer stuff I didn't expect --thus bloating my system. I also tried to use bspwm, and what else. After some days of frustration I decided to try the suckless path, installing dwm, slstatus, dmenu, and the st terminal from source. Boy, that felt good, I had found exactly what I wanted.
 
