@@ -1,3 +1,6 @@
+# A writing workflow
+The story and the dotfiles
+
 The purpose of this project is to build up a keyboard-centric publishing workflow on Linux. The specific case is configured on a PineBook Pro, an ARM-based laptop, but it should be reproducible on any Linux machine, from 64-bit workstations to 32-bit legacy systems, and including single-board ARM devices.
 
 This adventure started with a very simple idea: the need of a silent, fanless, minimalist setup to work at night. But as I approached the last steps I realised I was feeling good for other reasons. A minimalist system brings a sense of efficiency. Avoiding all the unnecessary bloat in the major desktop environments is a chanllenging path, and it does bring some headaches. But it is worth the effort. 
