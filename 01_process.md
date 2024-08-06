@@ -1,22 +1,16 @@
 # A keyboard-centric workflow with PineBook Pro
 
-This is the first part of [a bigger story](README.md) about building a keyboard-centric workflow for writers to edit and publish their work. 
+This is the first part of [a bigger story](README.md) about building a keyboard-centric workflow for writers to edit and publish their work.
+ 
 This adventure started with a very simple idea: the need of a silent, fanless, minimalist laptop. Living with others comes with this kind of requirements. Otherwise I would probably be writing this on a bulky workstation with a clicky, noisy mechanical keyboard.
 
-## Which laptop: unexpectedly cheap
+## Which laptop 
 
 The first thing to figure out was where to put the money, and how much. Several months were invested in comparing laptops, learning about how some CPUs get so hot, you can't really expect to use them fanless. Then I started comparing prices, and figured out I would need to spend over a thousand bucks. Suddenly I found some videos about the PineBook Pro. That moment was eye-opening. Yes, of course, I know I won't be able to render 3D scenes or videos, but the purpose of this machine is to write, probably browse, and check emails. That's it. So I then started looking for the bad news, people unhappy with this laptop. Most negative posts were about the dim screen, which is OK to me, since I was going to use it mainly inside, and most of the times at night. But the excitement of finding my perfect match was multiplied as soon as I had it in my hands. It's so slick, black, light and silent, I just love it.
 
-## Which distro: trying the wild side
+## Which distro
 
-This last version of the PineBook Pro comes bundled with Manjaro KDE (ARM
-version). The original idea of getting a laptop for writing away from my desk
-was to get rid of the mouse. Trackpads in general are bad for serious work, and
-make you less productive. A keyboard-centric workflow became one of my research
-topics. Before I decided to order the laptop, I got interested in tiling window
-managers. I listened to videos by the coolest nerds out there, and read
-comparisons about keyboard workflows, minimalist setups, and all this bunch of
-dotfile collectors. Well, I've become one of those.
+This last version of the PineBook Pro comes bundled with Manjaro KDE (ARM version). The original idea of getting a laptop for writing away from my desk was to get rid of the mouse. Trackpads in general are bad for serious work, and make you less productive. A keyboard-centric workflow became one of my research topics. Before I decided to order the laptop, I got interested in tiling window managers. I listened to videos by the coolest nerds out there, and read comparisons about keyboard workflows, minimalist setups, and all this bunch of dotfile collectors. Well, I've become one of those.
 
 Once I had the laptop ordered, and while it was shipped, I made some tweaking on my old noisy i386 laptop to test the tools. I had AntiX installed, which included HerbstluftWM. I had the feeling it would be as hard as I expected. In fact, I'm really writing this three months later than that, as soon as I have set up the whole workflow. I kept testing the keybindings and the logic behind the window manager. I also tried to install i3, which was so easy to configure, but I sort of felt the radical minimalism was still somewhere else. I tried to install dwm from the package manager, but it needed some ricing, which needed you to build from source. This meant installing a bunch of developer stuff I didn't expect --thus bloating my system. I also tried to use bspwm, and what else. After some days of frustration I decided to try the suckless path, installing dwm, slstatus, dmenu, and the st terminal from source. Boy, that felt good, I had found exactly what I wanted.
 

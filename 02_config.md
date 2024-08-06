@@ -2,7 +2,7 @@
 
 ## Basic configuration, a step by step guide
 
-### Wireless configuration: connecting to the world
+### Wireless configuration
 
 Some system installers include a step for wireless configuration, but when this is not the case, you'll need to configure it. Most distros rely on Network Manager, which can be configured using nmtui. Manjaro uses iNet Wireless Daemon (iwd). You can find a brief guide in the [Manjaro forum](https://forum.manjaro.org/t/guide-install-manjaro-arm-minimal-headless-on-rpi4-with-wifi/96515). I'm copying all the commands needed in this guide. Do not type the $ and # symbols, they just show when you need to use sudo or su privileges (lines starting with #), and when not (lines with $).
 
@@ -26,7 +26,7 @@ $ lsblk -f
 # pacman -Syu
 ```
 
-### Trackpad refinement: tapping and scrolling
+### Trackpad refinement
 
 As I already said, trackpads are far from being a mouse replacement, but you can make it sweeter by adding tap-to-click functionality. There are a number of sites explaining how to do it, like [this one](https://www.rockyourcode.com/get-your-touchpad-working-on-manjaro-i3/). You just need to build a config file named `30-touchpad.conf`,containing the following code, and place it in `/etc/X11/xorg.conf.d/`. 
 ```
