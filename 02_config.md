@@ -4,7 +4,7 @@
 
 ### Wireless configuration: connecting to the world
 
-Some system installers include a step for wireless configuration, but when this is not the case, you'll need to configure it. Most distros rely on Network Manager, which can be configured using nmtui. Manjaro uses iNet Wireless Daemon (iwd). You can find a brief guide in the [https://forum.manjaro.org/t/guide-install-manjaro-arm-minimal-headless-on-rpi4-with-wifi/96515][Manjaro forum]. I'm copying all the commands needed in this guide. Do not type the $ and # symbols, they just show when you need to use sudo or su privileges (lines starting with #), and when not (lines with $).
+Some system installers include a step for wireless configuration, but when this is not the case, you'll need to configure it. Most distros rely on Network Manager, which can be configured using nmtui. Manjaro uses iNet Wireless Daemon (iwd). You can find a brief guide in the (https://forum.manjaro.org/t/guide-install-manjaro-arm-minimal-headless-on-rpi4-with-wifi/96515)[Manjaro forum]. I'm copying all the commands needed in this guide. Do not type the $ and # symbols, they just show when you need to use sudo or su privileges (lines starting with #), and when not (lines with $).
 
 + We'll first try to figure out which is the ROOT partition, probably mmcblk2p2.
 ```
