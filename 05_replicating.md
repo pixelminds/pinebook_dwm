@@ -1,6 +1,6 @@
-# Replicating
+# Making it reusable
 
-Let's be honest. Using open source software, and particularly Linux, comes with lots of fun and possibilities, but you also get used to stability issues, and even the risk of a broken system once in a while. When you reach the sweet spot of your desired configuration, and start enjoying your productive setup, your start thinking about the next system crash.
+Let's be honest - when using open source software, and particularly Linux, comes with lots of fun and possibilities, but you also get used to stability issues, and even the risk of a broken system once in a while. When you reach the sweet spot of your desired configuration, and start enjoying your productive setup, your start thinking about the next system crash.
 
 In this context, one big concern is to make a particular setup reproducible. For this purpose, Linux expertise comes with collections of config files, also known as dotfiles (since they usually have a name starting with a dot, and hence hidden by default).
 
