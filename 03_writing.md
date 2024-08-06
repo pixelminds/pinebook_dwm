@@ -1,3 +1,9 @@
 # A keyboard-centric workflow with PineBook Pro
 
 ## The writing tools
+
+The central piece of software in a writing workflow is, of course, the text processor. 
+
+I'm not going to even try a new episode of the vim/emacs battle here, but I must admit I've been struggling with all the workflow concerns found in this field: the feel of the writing environment, productive typing, connections to other tools, familiar key bindings, and of course the helper tools like syntax highlighting, spell checking, and grep pattern search. Needless to say, vim is one of the preferred text editors for developers, but it's not as popular for writers. Emacs has been installed and removed multiple times on my laptops. It's simply not a plain text editor, and that makes it unfit to my purpose (besides the two-handed shortcuts). But there's other options out there if you need some smart sophistication. Editors like Gedit, Kate or Geany are surprisingly efficient and well designed. If you look for a CLI editor, then nano is another great alternative to vim. But as soon as you start digging in all the shortcuts and hidden mysteries of vim, you're lost and caught in it's tentacles, and discover an incredible ecosystem of utilities based on vim key bindings, and a huge crowd of developers working on pets of these key bindings to other software, including Emacs, Sublimetext, or even mainstream browsers like Chrome or Firefox. 
+
+The only big learning effort is about building some sort of muscle memory for the main key bindings. From then on, everything starts to get smooth, productive, and as dry as expected. I'm sharing all the key bindings of selected software in a separate repository (mysetup_cheatsheets), in case you find the need.
