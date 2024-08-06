@@ -28,7 +28,7 @@ $ lsblk -f
 
 ### Trackpad refinement: tapping and scrolling
 
-As I already said, trackpads are far from being a mouse replacement, but you can make it sweeter by adding tap-to-click functionality. There are a number of sites explaining how to do it, like [https://www.rockyourcode.com/get-your-touchpad-working-on-manjaro-i3/][this one]. You just need to build a config file named `30-touchpad.conf`,containing the following code, and place it in `/etc/X11/xorg.conf.d/`. 
+As I already said, trackpads are far from being a mouse replacement, but you can make it sweeter by adding tap-to-click functionality. There are a number of sites explaining how to do it, like [this one](https://www.rockyourcode.com/get-your-touchpad-working-on-manjaro-i3/). You just need to build a config file named `30-touchpad.conf`,containing the following code, and place it in `/etc/X11/xorg.conf.d/`. 
 ```
 Section "InputClass"
    Identifier "touchpad"
@@ -38,7 +38,7 @@ Section "InputClass"
    Option "Scroll-method" "edge"
 End Section
 ```
-### Window managementut 
+### Window management 
 
 One of the key decisions about configuring a new system is what kind of desktop experience we expect. There's multiple side-effects around this decision -- installation can be straight forward, or it might need several smaller steps; components can be part of the core environment, or you can choose them separately; but there's two significant details that broght myself to this specific setup: keep bloat to minimal, and avoid the mouse. Trackpad is there to help, but you should be able to work without it, just with your keyboard. A tiling window manager is one of the shortest paths to a keyboard-centric environment, and they are generally small.
 After trying a number of tiling window managers, I ended up prefering dwm. First I tried the binary install from pacman, but dwm need recompiling to achieve any ricing or config tweaks, so it eventually turns out to be not the driest option out there. You need to install the development tools so you can compile from source. At this point you may decide to give i3 a try, or any other option that you can rice by simply editing a config file. I did. But I went back to dwm, simply because I liked it better, and actually compiling is sort of fun.
