@@ -1,4 +1,4 @@
-The file management battle
+The file manager battle
 --------------------------
 
 After the text editor battle, I needed to choose the right console file manager. When comparing console file managers, there's enough options for everyone -- dual pane apps like midnight commander, vifm; single pane, like lf, nnn; miller columns like ranger... Some of them can work in more than one mode, like ranger in dual pane, vifm in list mode. On the other hand there's the key binding headache. If vim-like keybindings is a must-have, then the choice narrows down to just a few. In my case, the finalist battle has been between two giant competitors: ranger and vifm. Both have some unique features and some lacking tools, but both deserve a place in the final.
