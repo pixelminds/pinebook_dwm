@@ -15,4 +15,4 @@ I decided to share all the configuration process, basically for myself, so I cou
 + [Going online](04_online.md)
 + [Making it reusable](05_replicating.md)
 + [Backing it all up](06_backingup.md)
-+ [The file manager battle](07_filemanagement.md)
++ [The file manager battle](07_filemgmt.md)
