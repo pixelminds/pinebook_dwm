@@ -1,4 +1,4 @@
-# A keyboard-centric workflow with PineBook Pro
+# A keyboard-centric workflow with a silent laptop
 
 This is the first part of [a bigger story](README.md) about building a keyboard-centric workflow for writers to edit and publish their work.
  
@@ -7,6 +7,10 @@ This adventure started with a very simple idea: the need of a silent, fanless, m
 ## Which laptop 
 
 The first thing to figure out was where to put the money, and how much. Several months were invested in comparing laptops, learning about how some CPUs get so hot, you can't really expect to use them fanless. Then I started comparing prices, and figured out I would need to spend over a thousand bucks. Suddenly I found some videos about the PineBook Pro. That moment was eye-opening. Yes, of course, I know I won't be able to render 3D scenes or videos, but the purpose of this machine is to write, probably browse, and check emails. That's it. So I then started looking for the bad news, people unhappy with this laptop. Most negative posts were about the dim screen, which is OK to me, since I was going to use it mainly inside, and most of the times at night. But the excitement of finding my perfect match was multiplied as soon as I had it in my hands. It's so slick, black, light and silent, I just love it.
+
+To be honest, not everything is smooth and perfect on this machine. There's something wrong with the brick power unit. It stopped working, and I'm now using my celphone USB-C charger instead. The screen is also not the brightest, but at night thats just fine. The sound controller makes some annoying crack sound when going on and off. And you could power off the unit accidentally with the power switch being just a regular key next to F12. But I still love this laptop. 
+
+A couple years after I wrote this, in January 2025, guys at Pine64 decided to discontinue the laptop line in favor of the tablet form factor, although they admitted they could eventually get back to it if they happened to find the right chip set. That was really disappointing, but luckily I had got the grip on mine.
 
 ## Which distro
 
